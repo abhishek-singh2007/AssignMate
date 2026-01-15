@@ -1,7 +1,7 @@
 // WhatsApp Deep Link Function - Opens Native App First
 function openWhatsApp() {
   const message = "Hi! Mujhe academic help chahiye. Please share details and pricing.";
-  const phoneNumber = "919005315241"; // Replace with your WhatsApp number
+  const phoneNumber = "917607622720"; // Replace with your WhatsApp number
   
   // Detect if user is on mobile device
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
