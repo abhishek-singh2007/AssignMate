@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Reviews | AssignBuddy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- REVIEWS SECTION START -->
+  <section class="reviews">
+    <div class="container">
+      
+      <div class="section-header fade-in-up">
+        <h2 class="section-title">
+          <span class="gradient-text">Student Reviews</span>
+        </h2>
+        <p class="section-subtitle">
+          What our happy students say about our academic help
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        
+        <!-- Review 1 -->
+        <div class="review-card fade-in-up" data-delay="200">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">
+                <img src="assets/reviews/student1.jpg" alt="Rahul Verma" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="avatar-placeholder">R</div>
+              </div>
+              <div class="reviewer-details">
+                <h4 class="reviewer-name">Rahul Verma</h4>
+                <p class="reviewer-course">B.Tech Computer Science</p>
+              </div>
+            </div>
+            <div class="review-rating">
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <p class="review-text">
+              "Handwritten assignments bilkul perfect the! Time pe mila aur quality bhi excellent thi. 
+              Teacher ko doubt hi nahi hua. Highly recommended!"
+            </p>
+          </div>
+          <div class="review-image">
+            <img src="assets/reviews/delivery1.jpg" alt="Assignment delivery preview" onerror="this.parentElement.style.display='none';">
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card fade-in-up" data-delay="400">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">
+                <img src="assets/reviews/student2.jpg" alt="Anjali Singh" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="avatar-placeholder">A</div>
+              </div>
+              <div class="reviewer-details">
+                <h4 class="reviewer-name">Anjali Singh</h4>
+                <p class="reviewer-course">BBA Final Year</p>
+              </div>
+            </div>
+            <div class="review-rating">
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <p class="review-text">
+              "PPT presentation ka kaam kamaal ka kiya! Professional design aur content bhi bilkul 
+              ready tha. Last minute mein order diya tha, still on time deliver kiya."
+            </p>
+          </div>
+          <div class="review-image">
+            <img src="assets/reviews/delivery2.jpg" alt="PPT delivery preview" onerror="this.parentElement.style.display='none';">
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card fade-in-up" data-delay="600">
+          <div class="review-header">
+            <div class="reviewer-info">
+              <div class="reviewer-avatar">
+                <div class="avatar-placeholder">P</div>
+              </div>
+              <div class="reviewer-details">
+                <h4 class="reviewer-name">Priya Sharma</h4>
+                <p class="reviewer-course">B.Com Final Year</p>
+              </div>
+            </div>
+            <div class="review-rating">
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+              <span class="star">⭐</span>
+            </div>
+          </div>
+          <div class="review-content">
+            <p class="review-text">
+              "Research paper ke liye bahut accha kaam kiya! Proper referencing aur formatting. 
+              Professor bhi impressed the. Definitely recommend karna chahiye!"
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="reviews-footer fade-in-up" data-delay="800">
+        <div class="trust-indicators">
+          <div class="trust-item">
+            <span class="trust-icon">📝</span>
+            <span class="trust-text">500+ Projects Completed</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">⭐</span>
+            <span class="trust-text">5-Star Average Rating</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon">🎓</span>
+            <span class="trust-text">Happy Students</span>
+          </div>
+        </div>
+        
+        <button class="reviews-cta" onclick="openWhatsApp()">
+          <span class="btn-icon">💬</span>
+          Share Your Experience
+        </button>
+      </div>
+
+    </div>
+  </section>
+  <!-- REVIEWS SECTION END -->
+
+  <script src="js/components.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

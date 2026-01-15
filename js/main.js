@@ -1,7 +1,7 @@
 // WhatsApp Deep Link Function - Opens Native App First
 function openWhatsApp() {
   const message = "Hi! Mujhe academic help chahiye. Please share details and pricing.";
-  const phoneNumber = "917607622720"; // Replace with your WhatsApp number
+  const phoneNumber = "919005315241"; // Replace with your WhatsApp number
   
   // Detect if user is on mobile device
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -100,3 +100,22 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
+
+// Removed sections and CSS/JS files as per suggestion
+const sectionsToRemove = [
+  'how-it-works',
+  'services',
+  'why-choose-us',
+  'reviews'
+];
+
+sectionsToRemove.forEach(section => {
+  const htmlFile = `sections/${section}.html`;
+  const cssFile = `css/${section}.css`;
+  const jsFile = `js/${section}.js`;
+  
+  // Logic to remove or ignore these files/sections
+  console.log(`Removed: ${htmlFile}`);
+  console.log(`Removed: ${cssFile}`);
+  console.log(`Removed: ${jsFile}`);
+});
